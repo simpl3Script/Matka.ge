@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matka.ge</title>
+
+    <link rel="shortcut icon" href="./icons/icon.ico" type="image/x-icon">
+
+    <script src="https://kit.fontawesome.com/b5fc49de41.js" crossorigin="anonymous"></script>
+
+    <section class='links'>
+        <link rel='stylesheet' href='styles/style.css'>
+        <script src='./App.js' type="module" defer></script>
+    </section>
+
+</head>
+<body>
+
+    <input type="search" placeholder="ძიება" id="searchBar">
+
+    <nav>
+        <i class="fa-solid fa-magnifying-glass" id="searchBt"></i>
+        <i class="fa-solid fa-house" id="homeBt"></i>
+        <i class="fa-solid fa-gear" id="settingsBt"></i>
+    </nav>
+
+    <div id="hider"></div>
+    
+    <div id="focusDiv">
+        
+    </div>
+
+    <div id="settings">
+            <h1>პარამეტრები</h1>
+
+            <div>
+                <p  id="bookmarked">მონიშნული <i class="fa-solid fa-bookmark" style="color: var(--mainColor);"></i></p>
+                <a target="_blank" href="https://github.com/simpl3Script/simpl3Script/blob/main/README.md"><p  id="about_us">ჩვენ შესახებ <i class="fa-regular fa-address-card" style="color: var(--mainColor);"></i></p></a>
+                <br>
+                <p>პროექტზე მუშაობდნენ: <i class="fa-solid fa-person-digging" style="color: var(--mainColor)"></i></p>
+                <a target="_blank" href=""><p>დიზაინერი: კატო კვინიკაძე <i class="fa-solid fa-paintbrush" style="color: var(--mainColor);"></i></p></a>
+                <a target="_blank" href="https://www.facebook.com/profile.php?id=100073601805676"><p>პროგრამისტი: ქეშელა <i class="fa-solid fa-laptop-code" style="color: var(--mainColor);"></i></p></a>
+                <a target="_blank" href="https://www.facebook.com/mate.maisuradze.7"><p>პროგრამისტი: მათუკა <i class="fa-solid fa-laptop-code" style="color: var(--mainColor);"></i></p></a>
+                <br>
+                <a href="./data/info.html"><p>© ყველა უფლება დაცულია</p></a>
+                <span id="year"></span>
+            </div>
+        <!-- <i class="fa-solid fa-bookmark" style="color: #ffffff;"></i> -->
+    </div>
+
+    <div id="up">
+        <p>მაღლა</p>
+    </div>
+
+    <header>
+        <select id="classSelector">
+            <option>ყველა კლასი</option>
+            <option>7 კლასი</option>
+            <option>8 კლასი</option>
+            <option>9 კლასი</option>
+            <option>10 კლასი</option>
+            <option>11 კლასი</option>
+        </select>
+
+        <select id="typeSelector">
+            <option>ყველა</option>
+            <option>ალგებრა</option>
+            <option>გეომეტრია</option>
+            <option>ტრიგონომეტრია</option>
+        </select>
+    </header>
+
+    <main>
+        
+    </main>
+    
+</body>
+</html>
